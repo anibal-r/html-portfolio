@@ -1,7 +1,28 @@
 #logo{
-    width: 5%;
+    width: 50px;
+}
+
+footer{
+    display: flex;
+  justify-content: center;   /* centers the images horizontally */
+  align-items: center;       
+  gap: 20px;                 
+  padding: 20px;             
+  height: 20px; 
 }
 
 body{
-    background-image: linear-gradient(to bottom, red to yellow);
+    background-image: linear-gradient(to top right, rgba(255,0,0,0), rgba(255,0,0,1));
+    width: auto;
+}
+
+div {
+  width: auto;
+  border: 10px groove;
+  padding: 20px;
+  margin: auto;
+}
+
+#hr{
+    width: 100%;
 }
