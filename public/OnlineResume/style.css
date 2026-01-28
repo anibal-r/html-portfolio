@@ -1,7 +1,26 @@
-#Diploma{
-     color: brown;
+html{
+    background-color: #FFEAD3;
+}
+#main{
+  font-family: "Gravitas One", serif;
+  font-weight: 400px;
+  font-style: normal;
 }
 
-#sub-heading{
-    font-weight: 700;
+#box{
+    display: flex;
+    justify-content: space-between;
+
 }
+
+#resumephoto{
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    border: 10px solid #9E3B3B;
+    border-radius: 15px;
+}
+
+#personalInf{
+
+    }

@@ -8,22 +8,38 @@
         rel="stylesheet"
         href="./style.css"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Gravitas+One&display=swap" rel="stylesheet"> 
     </head>
-    <body>
+    <body id="main">
         <h1>Online Resume</h1>
-        <img src="./assets/images/Rodriguez_Anibal.jpg" width="150"/>
-        <p>Hi! My name is Anibal and i'm currently 18 years old. I like coding and play videogames.<br>
-        In the following document you will see my hard skills.</p>
+        <div id="box">
+            <div><h2>Personal Information</h2></div>
+            <div id="resumephoto"><img src="./assets/images/Rodriguez_Anibal.jpg" width="250"/> </div>
+        
+        </div>
+        <!-- <div id="personalInf">
+            <p>Personal Information</p>
+        </div> -->
         <hr>
 
         <h2>Edcucation</h2>
         <ul>
-            <div id="sub-heading">Schloßgymnasium Kirchheim unter Teck - <a id="Diploma">High School Diploma</a></div>
+            <div>Schloßgymnasium Kirchheim unter Teck - <a>
+                High School Diploma
+                <style>
+                    a{
+                        color: #D25353
+                    }
+                </style>
+            </a>
+        </div>
             <li>
                 09.2017 - 07.2025
             </li>
             <br/>
-            <div id="sub-heading">Grundschule Gartenstraße</div>
+            <div>Grundschule Gartenstraße</div>
             <li>
                 09.2013 - 09.2017
             </li>
@@ -32,12 +48,12 @@
 
         <h2>Work Experience</h2>
         <ul>
-            <div id="sub-heading">Keller Lufttechnik - <a id="Diploma">Internship Installation and Fabrication</a></div>
+            <div>Keller Lufttechnik - <a>Internship Installation and Fabrication</a></div>
             <li>
                 06.2025
             </li>
             <br>
-            <div id="sub-heading">Siemens AG - <a id="Diploma">Internship IT and Service</a></div>
+            <div>Siemens AG - <a>Internship IT and Service</a></div>
             <li>
                 02.2023
             </li>
@@ -46,31 +62,31 @@
 
         <h2>Other Skills</h2>
         <ul>
-            <div id="sub-heading">Languages</div>
+            <div>Languages</div>
             <li>
-                Spanish - <a id="Diploma">C2</a>
+                Spanish - <a>C2</a>
             </li>
             <li>
-                German - <a id="Diploma">C2</a>
+                German - <a>C2</a>
             </li>
             <li>
-                English - <a id="Diploma">GER: B2, in parts: C1</a>
+                English - <a>GER: B2, in parts: C1</a>
             </li>
             <li>
-                French - <a id="Diploma">GER: B1</a>
+                French - <a>GER: B1</a>
             </li>
-            <div id="sub-heading"></div>
+            <div></div>
             <br>
 
-            <div id="sub-heading">Programming</div>
+            <div>Programming</div>
             <li>
-                <a id="Diploma">C/C++</a> (Arduino)
+                <a>C/C++</a> (Arduino)
             </li>
             <li>
-                <a id="Diploma">HTML and CSS</a>
+                <a>HTML and CSS</a>
             </li>
             <li>
-                <a id="Diploma">Swift</a> (iOS Development)
+                <a>Swift</a> (iOS Development)
             </li>
         </ul>
     </body>
